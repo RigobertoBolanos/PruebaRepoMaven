@@ -20,6 +20,7 @@ public interface IHlvlParser {
 	/**
 	 * Method to do the parsing of a xml file to Hlvl
 	 * @throws Exception
+	 * 
 	 */
 	public void parse() throws Exception;
 	
@@ -28,7 +29,7 @@ public interface IHlvlParser {
 	 * @param data: String that represents the content of a xml file
 	 * @throws Exception: 
 	 */
-	public String parse(String data)throws Exception;
+	public String parse(String data) throws Exception;
 	
 	
 
