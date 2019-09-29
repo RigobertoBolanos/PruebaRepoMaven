@@ -30,7 +30,7 @@
 		<connection>scm:git:git://github.com/RigobertoBolanos/PruebaRepoMaven.git</connection>
 		<developerConnection>scm:git:git@github.com:RigobertoBolanos/PruebaRepoMaven.git</developerConnection>
 		<url>https://github.com/RigobertoBolanos/PruebaRepoMaven</url>
-		<tag>basicHlvlPackage-0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
@@ -78,7 +78,7 @@
 				<version>2.5.3</version>
 				<configuration>
 					<localCheckout>true</localCheckout>
-					<pushChanges>false</pushChanges>
+					<pushChanges>true</pushChanges>
 					<mavenExecutorId>forked-path</mavenExecutorId>
 					<arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
 				</configuration>
