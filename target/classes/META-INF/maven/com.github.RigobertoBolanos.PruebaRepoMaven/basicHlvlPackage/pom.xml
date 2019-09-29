@@ -3,7 +3,7 @@
 
 	<groupId>com.github.RigobertoBolanos.PruebaRepoMaven</groupId>
 	<artifactId>basicHlvlPackage</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>basicHlvlPackage</name>
@@ -30,7 +30,7 @@
 		<connection>scm:git:git://github.com/RigobertoBolanos/PruebaRepoMaven.git</connection>
 		<developerConnection>scm:git:git@github.com:RigobertoBolanos/PruebaRepoMaven.git</developerConnection>
 		<url>https://github.com/RigobertoBolanos/PruebaRepoMaven</url>
-		<tag>HEAD</tag>
+		<tag>basicHlvlPackage-0.0.1</tag>
 	</scm>
 
 	<distributionManagement>
@@ -75,7 +75,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.3</version>
 				<configuration>
 					<localCheckout>true</localCheckout>
 					<pushChanges>true</pushChanges>
