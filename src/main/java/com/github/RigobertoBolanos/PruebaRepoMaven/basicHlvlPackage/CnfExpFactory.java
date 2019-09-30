@@ -2,7 +2,7 @@ package com.github.RigobertoBolanos.PruebaRepoMaven.basicHlvlPackage;
 
 import java.util.List;
 
-public class CnfExpFactory implements HlvlBasicKeys{
+public class CnfExpFactory implements IHlvlBasicKeys{
 
 	public String getCNF2expression(List<String> positives, List<String> negatives, int numId, String id) {
 		String out= id+ (numId++) + COLON+  EXPRESSION+ OPEN_CALL;

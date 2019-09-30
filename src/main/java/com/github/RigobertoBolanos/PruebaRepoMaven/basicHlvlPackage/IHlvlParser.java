@@ -8,7 +8,7 @@ package com.github.RigobertoBolanos.PruebaRepoMaven.basicHlvlPackage;
  * January 2019
  */
 public interface IHlvlParser {
-	
+
 	/**
 	 * Method to formatting the name of an element in a valid name 
 	 * for hlvl (no spaces, no symbols, etc)
@@ -29,8 +29,4 @@ public interface IHlvlParser {
 	 * @throws Exception: 
 	 */
 	public String parse(String data)throws Exception;
-	
-	
-
-
 }

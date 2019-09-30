@@ -10,7 +10,7 @@ import java.util.List;
  * January 2019
  */
 public interface IHlvlBasicFactory {
-	
+
 	/**
 	 * Produces an hlvl sentence with the declaration of a boolean element
 	 * @param identifier
@@ -25,6 +25,7 @@ public interface IHlvlBasicFactory {
 	 * @return a String with the hlvl sentences in the form coreElements(E1)
 	 */
 	public String getCore(String element);
+	
 	/**
 	 * Produces a core relation for the elements that must be included in the
 	 * product. 
@@ -76,12 +77,8 @@ public interface IHlvlBasicFactory {
 	 */
 	public String getGroup(String parent, List <String> children, GroupType type);
 	
-	
 	//TODO This definition may change
 	//public String getExpression();
-	
-
-	
 	/**
 	 * 
 	 * @param positives
@@ -89,8 +86,6 @@ public interface IHlvlBasicFactory {
 	 * @return
 	 */
 	public String parseCNF2expression(List<String> positives, List<String> negatives);
-	
-
 	
 	/**
 	 * Produces the header of an HLVL file
@@ -108,7 +103,5 @@ public interface IHlvlBasicFactory {
 	/**
 	 * Returns an operations block with the set of basic operations
 	 */
-	
 	public String getBasicOperationsBlock();
-	
 }

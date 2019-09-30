@@ -12,6 +12,7 @@ package com.github.RigobertoBolanos.PruebaRepoMaven.basicHlvlPackage;
  * contracts modified on September 15th by Juan Diego Carvajal Castaño
  */
 public enum GroupType {
+
 	Xor,
 	Or,
 	And

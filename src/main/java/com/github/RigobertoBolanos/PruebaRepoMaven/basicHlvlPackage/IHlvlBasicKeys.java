@@ -7,8 +7,8 @@ package com.github.RigobertoBolanos.PruebaRepoMaven.basicHlvlPackage;
  * Coffee V1
  * January 2019
  */
+public interface IHlvlBasicKeys {
 
-public interface HlvlBasicKeys {
 	/**
 	 * Hlvl Constructs for the dialect HLVL(basic)
 	 */
@@ -67,7 +67,4 @@ public interface HlvlBasicKeys {
 	     public static String NEG ="~";
 	     public static String L_AND ="AND";
 	     public static String L_OR ="OR";
-	     
-	
-	
 }

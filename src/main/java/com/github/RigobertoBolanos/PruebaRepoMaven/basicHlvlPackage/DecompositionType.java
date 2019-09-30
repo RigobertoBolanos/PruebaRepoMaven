@@ -8,6 +8,7 @@ package com.github.RigobertoBolanos.PruebaRepoMaven.basicHlvlPackage;
  * January 2019
  */
 public enum DecompositionType {
+
 	Mandatory,
 	Optional
 }
