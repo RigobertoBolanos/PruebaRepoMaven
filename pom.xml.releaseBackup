@@ -1,9 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.RigobertoBolanos.PruebaRepoMaven</groupId>
 	<artifactId>basicHlvlPackage</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>basicHlvlPackage</name>
@@ -28,10 +30,9 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/RigobertoBolanos/PruebaRepoMaven.git</connection>
-		<developerConnection>scm:git:git@github.com:RigobertoBolanos/PruebaRepoMaven.git</developerConnection>
+		<developerConnection>scm:git:ssh://github.com:RigobertoBolanos/PruebaRepoMaven.git</developerConnection>
 		<url>https://github.com/RigobertoBolanos/PruebaRepoMaven</url>
-	  <tag>basicHlvlPackage-0.0.1</tag>
-  </scm>
+	</scm>
 
 	<distributionManagement>
 		<snapshotRepository>
